@@ -8,9 +8,7 @@ use App\Http\Requests\UpdateAgentRequest;
 
 class AgentController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+
     public function index()
     {
         //
@@ -35,10 +33,7 @@ class AgentController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Agent $agent)
-    {
-        //
-    }
+    public function show(Agent $agent) {}
 
     /**
      * Show the form for editing the specified resource.
